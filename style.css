@@ -1,0 +1,24 @@
+body{
+margin:0;
+font-family:Segoe UI,sans-serif;
+background:linear-gradient(#3e2723,#1b0000);
+color:#fff;
+text-align:center;
+overflow:hidden;
+}
+audio{width:90%;margin:10px}
+.counter{margin:10px;font-size:16px}
+#name{margin:10px;height:40px}
+.choice{margin:15px}
+.choice button{
+padding:10px 20px;
+margin:5px;
+border:none;
+border-radius:20px;
+background:#ff5fa2;
+color:white;
+}
+.gallery{position:relative;height:60vh}
+.photo{position:absolute;width:100%;opacity:0;transition:1s}
+.photo.active{opacity:1}
+.photo img{width:70%;max-width:280px;border-radius:20px;box-shadow:0 0 20px #000}
